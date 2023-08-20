@@ -48,8 +48,10 @@ ThemeData getApplocationTheme() {
             getLightStyle(color: ColorManager.white, fontSize: FontSize.s22),
         headlineLarge: getSemiBoldStyle(
             color: ColorManager.darkGray, fontSize: FontSize.s16),
+        headlineMedium: getRegularStyle(
+            color: ColorManager.darkGray, fontSize: FontSize.s14),
         titleMedium: getMediumStyle(
-            color: ColorManager.lightGray, fontSize: FontSize.s14),
+            color: ColorManager.primary, fontSize: FontSize.s16),
         bodyLarge: getRegularStyle(color: ColorManager.gray1),
         bodySmall: getRegularStyle(color: ColorManager.gray)),
 
